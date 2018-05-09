@@ -81,11 +81,11 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
 	'NAME': 'Docker_DB',
         'USER': 'sexysw',
-        'PASSWORD': os.environ['PASSWD'],
+        'PASSWORD': ,
         'HOST': 'sexysw.database.windows.net',
         'PORT': '1433',
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'ODBC Driver 13 for SQL Server',
             'MARS_Connection': 'True',
         }
     }
